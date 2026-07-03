@@ -26,7 +26,7 @@ function App() {
     localStorage.getItem("role") === "ADMIN" ||
     localStorage.getItem("role") === "ORGANIZER"
       ? <CreateEvent />
-      : <Navigate to="/createevents" />
+      : <Navigate to="/events" />
   }
 />
 
